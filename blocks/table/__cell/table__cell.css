@@ -1,0 +1,7 @@
+.table__cell {
+  width: 250px;
+}
+
+.table .table__cell:nth-child(-n+4) {
+  margin-bottom: 20px;
+}
