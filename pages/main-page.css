@@ -56,3 +56,9 @@
 @import url(../blocks/footer/__column/footer__column.css);
 
 @import url(../blocks/footer/__author/footer__author.css);
+@import url(../blocks/footer/__menu/footer__menu.css);
+@import url(../blocks/footer/__menu/_type/footer__menu_type_subtitle.css);
+@import url(../blocks/footer/__menu/_type/footer__menu_type_title.css);
+@import url(../blocks/footer/__menu/footer__menu.css);
+@import url(../blocks/footer/__link/footer__link.css);
+@import url(../blocks/footer/__media-logo/footer__media-logo.css);

@@ -1,0 +1,6 @@
+.footer__link:active,
+.footer__link:hover,
+.footer__link {
+  text-decoration:none;
+  color: white;
+}
