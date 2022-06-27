@@ -5,4 +5,5 @@
   padding-top: 80px;
   justify-content: space-between;
   margin-bottom: 90px;
+  z-index: 2;
 }

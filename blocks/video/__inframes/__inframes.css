@@ -1,0 +1,8 @@
+.video__inframes {
+  margin: 50px auto -150px auto;
+}
+
+.video__inframes :first-child {
+  margin-right: 20px;
+}
+
