@@ -1,7 +1,5 @@
 .table__cell {
   width: 250px;
+  margin-top: 60px;
 }
 
-.table .table__cell:nth-child(-n+4) {
-  margin-bottom: 20px;
-}
