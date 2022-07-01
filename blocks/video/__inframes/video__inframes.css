@@ -1,8 +1,0 @@
-.video__inframes {
-  display: flex;
-  margin: 50px 0 0 0;
-}
-
-.video__inframes li:first-child {
-  margin-right: 20px;
-}

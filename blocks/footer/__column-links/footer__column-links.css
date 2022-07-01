@@ -1,13 +1,9 @@
 .footer__column-links {
   list-style-type: none;
   padding: 0;
-  margin: 0;
+  margin: 0 0 16px 0;
 }
 
-.footer__column-links li:not(:last-child) {
+.footer__column-links :not(:last-child) {
   margin-bottom: 10px;
-}
-
-.footer__column-links li:last-child {
-  margin-bottom: 16px;
 }

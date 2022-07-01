@@ -1,0 +1,8 @@
+.page {
+  min-width: 1100px;
+  max-width: 1600px;
+  margin: 0 auto;
+  font-family: 'Inter', 'Arial', sans-serif;
+}
+
+/* этого нет в брифе, но данные стили были в начальном пакете проекта, который мы качали с гита

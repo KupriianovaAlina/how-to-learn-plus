@@ -1,5 +1,5 @@
 .feynman__link {
-  text-decoration:none;
+  text-decoration: none;
   color: #2f80ed;
   line-height: 51px;
   font-size: 36px;
@@ -11,5 +11,5 @@
 }
 
 .feynman__link:hover {
-opacity: 0.5;
+  opacity: 0.5;
 }

@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Научиться учиться</title>
-  <link rel="stylesheet" href="./styles/index.css">
+  <link rel="stylesheet" href="./pages/index.css">
 </head>
 
 <body>
@@ -32,7 +32,7 @@
               материал. Мы готовимся к экзаменам и учим билеты. Мы тренируемся решать однообразные задачи, чтобы лучше
               сдать тест, но часто в итоге это не дает нам реального знания. Зубрежка быстро выветривается и не приносит
               пользы.</p>
-            <p class="two-columns__paragraph"><span class="span-accent">Вывод:</span> учиться тоже нужно уметь, но
+            <p class="two-columns__paragraph"><span class="two-columns__span-accent">Вывод:</span> учиться тоже нужно уметь, но
               почему-то этому мало
               где учат. Что с этим делать?</p>
             <p class="two-columns__paragraph">Конкретные техники и упражнения помогают изменить подход к обучению,
@@ -42,8 +42,8 @@
       </section>
 
       <section class="techniques">
-        <h2 class="section__title">Техники обучения</h2>
-        <h3 class="section__subtitle">Пять практик от Барбары Оакли</h3>
+        <h2 class="section-title">Техники обучения</h2>
+        <h3 class="section-subtitle">Пять практик от Барбары Оакли</h3>
         <ul class="cards">
           <li class="cards__item">
             <img class="cards__image" src="./images/cards-attention.png" alt="Изображение книги">
@@ -78,18 +78,18 @@
       </section>
 
       <section class="video">
-        <h2 class="section__title">Видео нa TED</h2>
-        <h3 class="section__subtitle">Для тех, кто любит прокрастинировать</h3>
-        <ul class="video__inframes">
-          <li><iframe class="video__inframe" src="https://www.youtube.com/embed/J_89IMS5gJQ"
+        <h2 class="section-title">Видео нa TED</h2>
+        <h3 class="section-subtitle">Для тех, кто любит прокрастинировать</h3>
+        <div class="video__iframes">
+          <iframe class="video__iframe" src="https://www.youtube.com/embed/J_89IMS5gJQ"
               title="YouTube video player"
               allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen></iframe></li>
-          <li><iframe class="video__inframe" src="https://www.youtube.com/embed/0u3bccaRmmg"
+              allowfullscreen></iframe>
+          <iframe class="video__iframe" src="https://www.youtube.com/embed/0u3bccaRmmg"
               title="YouTube video player"
               allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen></iframe></li>
-        </ul>
+              allowfullscreen></iframe>
+        </div>
       </section>
 
       <section class="oakley">
@@ -117,8 +117,8 @@
 
 
       <section class="digits">
-        <h2 class="section__title">Цифры и факты</h2>
-        <h3 class="section__subtitle">Про учёбу и мозг</h3>
+        <h2 class="section-title">Цифры и факты</h2>
+        <h3 class="section-subtitle">Про учёбу и мозг</h3>
         <ul class="table">
           <li class="table__cell">
             <h4 class="table__heading">86 миллиардов</h4>
@@ -168,7 +168,7 @@
             навыки и знания, которые приносят успех в школе, карьере и жизни.</p>
           <h4 class="khan__quote-author">Джордж Лукас</h4>
           <p class="khan__quote-author-subline">Кинорежиссер, продюсер</p>
-          <div class="khan__book-container flex-row">
+          <div class="khan__book-container">
             <img class="khan__book-pic" src="./images/khan-book.jpg" alt="Фото книги">
             <a class="khan__buy-link" href="#">Купить книгу →</a>
           </div>
@@ -178,8 +178,8 @@
       </section>
 
       <section class="kaufman">
-        <h2 class="section__title section__title_theme_dark">Принципы обучения</h2>
-        <h3 class="section__subtitle section__subtitle_theme_dark">От Джоша Кауфмана</h3>
+        <h2 class="section-title section-title_theme_dark">Принципы обучения</h2>
+        <h3 class="section-subtitle section-subtitle_theme_dark">От Джоша Кауфмана</h3>
         <ul class="table table_theme_dark">
           <li class="table__cell table__cell_theme_dark">
             <h4 class="table__heading table__heading_theme_dark">1</h4>
@@ -222,12 +222,14 @@
             <h4 class="table__heading table__heading_theme_dark">10</h4>
             <p class="table__text table__text_theme_dark">Уделяйте внимание количеству и скорости.</p>
           </li>
-          <img class="kaufman__tringle rotation" src="./images/kaufman-triangle.svg">
+        </ul>
+        <img class="kaufman__tringle rotation" src="./images/kaufman-triangle.svg" alt="фоновый элемент, синий
+          вращающийся квадрат">
       </section>
 
       <section class="resources">
-        <h2 class="section__title">Полезные ресурсы</h2>
-        <h3 class="section__subtitle">Больше материалов о техниках и лайфхаках обучения</h3>
+        <h2 class="section-title">Полезные ресурсы</h2>
+        <h3 class="section-subtitle">Больше материалов о техниках и лайфхаках обучения</h3>
         <div class="resources__logo-zone">
           <a class="resources__link" href="#"><img class="resources__logo" src="./images/logo/resources-arzamas.svg"
               alt="Лого Арзамас"></a>
@@ -244,7 +246,7 @@
 
     <footer class="footer">
       <div class="footer__columns">
-        <div class="footer__column footer__column_content_copytights">
+        <div class="footer__column footer__column_content_copyrights">
           <img class="logo logo_place_footer" src="./images/logo_place_footer.svg" alt="Логотип Яндекс Практикума">
           <p class="footer__author">&copy; Виктор Абанькин</p>
         </div>
@@ -256,8 +258,8 @@
               <li><a class="footer__column-link" href="#">Концепция</a></li>
               <li><a class="footer__column-link" href="#">Наставники</a></li>
             </ul>
+          </nav>
         </div>
-        </nav>
         <div class="footer__column footer__column_content_social">
           <p class="footer__column-heading">Соцсети</p>
           <nav>
