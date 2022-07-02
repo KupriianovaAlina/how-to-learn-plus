@@ -1,9 +1,8 @@
 .footer__column-links {
+  display: flex;
+  flex-direction: column;
   list-style-type: none;
   padding: 0;
+  row-gap: 10px;
   margin: 0 0 16px 0;
-}
-
-.footer__column-links :not(:last-child) {
-  margin-bottom: 10px;
 }
