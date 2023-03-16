@@ -9,5 +9,5 @@
 - БЭМ Nested иерархия файлов и названия классов
 - Pixel Perfect верстка
 
-## Демонстрация проекта на GitPages:
+## Демонстрация проекта на GitHub Pages:
 https://kupriianovaalina.github.io/how-to-learn-plus/
