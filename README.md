@@ -8,3 +8,6 @@
 - CSS 3
 - БЭМ Nested иерархия файлов и названия классов
 - Pixel Perfect верстка
+
+## Демонстрация проекта на GitPages:
+https://kupriianovaalina.github.io/how-to-learn-plus/
